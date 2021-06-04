@@ -1,0 +1,120 @@
+
+body{
+background:url(bg.png) ;
+
+}
+.nav{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+    background: transparent;
+    /* height: 6vh; */
+    /* padding: 30px; */
+    border: none;
+    margin-bottom: 0;
+    padding: 25px ;
+    
+    box-shadow: 0px 3px rgba(124, 150, 235, 0.37);
+    
+}
+@media only screen and (max-width:600px) {
+    .nav {
+        
+        color: yellow;
+    }
+}
+.logo{
+    /* background: red; */
+    height: 60px;
+    width: 100px;
+    float: left;
+    padding: 40px 0px 0px 40px;
+    font-size: 25px;
+    
+    color: rgb(41, 58, 104);
+   
+}
+@media only screen and (max-width:600px) {
+    .logo {
+        
+        color: yellow;
+    }
+}
+.menu{
+    /* background: green; */
+
+}
+li{
+    padding: 40px;
+    display: inline;
+    font-size: 22px;
+    
+}
+a{
+    color: rgb(41, 58, 104);
+    text-decoration: none;
+}
+@media only screen and (max-width:600px) {
+    a {
+        
+        color: yellow;
+    }
+}
+.lists{
+    /* background: pink; */
+    padding: 20px;
+    display: block;   
+    
+}
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(41, 58, 104);
+    height: 60px;
+    width: 150px;
+}
+@media only screen and (max-width:600px) {
+    .butt {
+        background: transparent;
+        
+        
+    }
+}
+button{
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    color: white;
+
+}
+@media only screen and (max-width:600px) {
+    button{
+        
+        color: yellow;
+    }
+}
+.content{
+    height: max-content;
+    position: absolute;
+    font-size: 52px;
+    padding:100px 0px 0px 250px;
+    color:rgb(24, 7, 116) ;
+}
+@media only screen and (max-width:600px) {
+    .content {
+        
+        color: yellow;
+    }
+}
+@media only screen and (max-width:600px) {
+    body {
+        background: rgb(64, 45, 172);
+        color: yellow;
+        
+    }
+}
+.condetails{
+    width: 300px;
+    font-size: 26px;
+}
