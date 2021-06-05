@@ -1,72 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-body{
-background:url(bg.png) ;
-
+body {
+    background: url(bg.webp);
+    font-family: 'Varela Round', sans-serif;
 }
-.nav{
+
+.nav {
     display: flex;
-   align-items: center;
-   justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
     background: transparent;
     /* height: 6vh; */
     /* padding: 30px; */
     border: none;
     margin-bottom: 0;
-    padding: 25px ;
-    
+    padding: 25px;
     box-shadow: 0px 3px rgba(124, 150, 235, 0.37);
-    
 }
+
+b {}
+
 @media only screen and (max-width:600px) {
     .nav {
-        
         color: yellow;
     }
 }
-.logo{
+
+.logo {
     /* background: red; */
     height: 60px;
     width: 100px;
     float: left;
     padding: 40px 0px 0px 40px;
     font-size: 25px;
-    
     color: rgb(41, 58, 104);
-   
 }
+
 @media only screen and (max-width:600px) {
     .logo {
-        
         color: yellow;
     }
 }
-.menu{
-    /* background: green; */
 
+.menu {
+    /* background: green; */
 }
-li{
+
+li {
     padding: 40px;
     display: inline;
     font-size: 22px;
-    
 }
-a{
+
+a {
     color: rgb(41, 58, 104);
     text-decoration: none;
 }
+
 @media only screen and (max-width:600px) {
     a {
-        
         color: yellow;
     }
 }
-.lists{
+
+.lists {
     /* background: pink; */
     padding: 20px;
-    display: block;   
-    
+    display: block;
 }
-.butt{
+
+.butt {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,47 +79,66 @@ a{
     height: 60px;
     width: 150px;
 }
+
 @media only screen and (max-width:600px) {
     .butt {
         background: transparent;
-        
-        
     }
 }
-button{
+
+button {
     background-color: transparent;
     border: none;
     font-size: 22px;
     color: white;
-
 }
+
 @media only screen and (max-width:600px) {
-    button{
-        
+    button {
         color: yellow;
     }
 }
-.content{
+
+.content {
+    
+    display: flex;
     height: max-content;
     position: absolute;
     font-size: 52px;
-    padding:100px 0px 0px 250px;
-    color:rgb(24, 7, 116) ;
+    padding: 100px 0px 0px 250px;
+    color: rgb(24, 7, 116);
 }
+
 @media only screen and (max-width:600px) {
     .content {
-        
         color: yellow;
     }
 }
+@media only screen and (max-width:1100px) {
+    .content {
+        
+        display: block;
+    }
+}
+
 @media only screen and (max-width:600px) {
     body {
         background: rgb(64, 45, 172);
         color: yellow;
-        
     }
 }
-.condetails{
+.conleft{
+    width: 70%;
+}
+.conright{
+    height: auto;
+    padding: 100px 20px 20px 20px;
+    width: 400px;
+    font-size: 30px;
+    background: rgba(255, 255, 255, 0.616);
+}
+.condetails {
     width: 300px;
     font-size: 26px;
+    padding-bottom: 100px;
 }
